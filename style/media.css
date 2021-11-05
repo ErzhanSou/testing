@@ -1,0 +1,15 @@
+@media (max-width: 400px) {
+    .container{
+        max-width: 380px;
+    }
+    .d-flex{
+        flex-direction: column;
+    }
+    .card123{
+        width: 385px;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        text-align: center;
+    }
+}

@@ -1,0 +1,150 @@
+@import "./fonts.css";
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    max-width: 1180px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+.row{
+    width: 100%;
+}
+.col4{
+    max-width: 33.33333%;
+}
+.d-flex{
+    display: flex;
+}
+.main .row{
+    margin: 0 -10px;
+}
+.row .col4{
+    padding: 0 10px;
+}
+
+
+
+.main{
+    padding: 88px 0 40px;
+}
+.card123{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.cats_card{
+    background: #E5E5E5;
+    padding: 29px 0 29px 29px;
+}
+.cat_info{
+    display: flex;
+}
+.cat_age_info{
+    margin: 0 46px 0 22px;
+    display: flex;
+    flex-direction: column;
+}
+.cat_type{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+
+}
+.card123_info{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+}
+.cat_age_paws_num{
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+
+}
+.cat_color_and_age_paws{
+    width: 89px;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    color: #000000;
+}
+.cat_age{
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+}
+.cat_info{
+    position: relative;
+    margin: 22px 0;
+    padding-left: 18px;
+}
+.cat_info:before{
+    left: 0;
+    content: "";
+    position: absolute;
+    width: 4px;
+    height: 26px;
+    background: #6EBBD3;
+}
+.cats_card-d_flex{
+    display: flex;
+    flex-direction: column;
+}
+.buy_btn{
+    width: 385px;
+    height: 65px;
+    background: #6EBBD3;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 0 0 5px 5px;
+    transition: 0.5s;
+}
+.buy_btn:hover{
+    background: #256e7e;
+}
+.buy_btn_saled{
+    background: #1F2021;
+}
+.buy_btn_saled:hover{
+    background: #304950;
+}
+
+
+
+.sub_title{
+    margin-top: 95px;
+    text-align: center;
+}
+.title1{
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 78px;
+    color: #000000;
+}
+.title2{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+
+}
